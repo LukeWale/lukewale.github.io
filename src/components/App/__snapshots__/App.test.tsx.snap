@@ -102,9 +102,15 @@ exports[`App should render correctly 1`] = `
         </div>
       </nav>
     </header>
-    <div
+    <main
       data-testid="app-main"
-    />
+    >
+      <div
+        class="container"
+      >
+        <h1 />
+      </div>
+    </main>
     <footer
       class="bg-gray-800 p-6 sticky top-[100vh] text-white"
       data-testid="app-footer"

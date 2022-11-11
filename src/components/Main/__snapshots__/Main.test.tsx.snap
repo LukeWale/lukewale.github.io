@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should render correctly 1`] = `
+<DocumentFragment>
+  <main
+    data-testid="app-main"
+  >
+    <div
+      class="container"
+    >
+      <h1 />
+    </div>
+  </main>
+</DocumentFragment>
+`;

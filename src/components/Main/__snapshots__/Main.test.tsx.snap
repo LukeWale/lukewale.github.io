@@ -45,19 +45,24 @@ exports[`Main should render correctly 1`] = `
         </h2>
         <div
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          data-testid="repo-list"
         >
           <div
             class="text-center"
           >
             <img
               alt=""
+              data-testid="repo-image"
               src="placeholder-image.png"
             />
-            <h3>
+            <h3
+              data-testid="repo-name"
+            >
               JS QR Code Generator
             </h3>
             <a
               class="bg-primary p-5 mb-[10px] block rounded-[10px] text-white font-semibold"
+              data-testid="repo-github-link"
               href="https://github.com/LukeWale/js-qr-code-generator"
               rel="noreferrer"
               target="_blank"
@@ -66,6 +71,7 @@ exports[`Main should render correctly 1`] = `
             </a>
             <a
               class="bg-primary p-5 mb-[10px] block rounded-[10px] text-white font-semibold"
+              data-testid="repo-view-link"
               href="https://lukewale.github.io/js-qr-code-generator"
               rel="noreferrer"
               target="_blank"

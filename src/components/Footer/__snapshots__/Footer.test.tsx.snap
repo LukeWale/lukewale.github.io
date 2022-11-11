@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly 1`] = `
+<DocumentFragment>
+  <footer
+    class="bg-gray-800 p-6 sticky top-[100vh] text-white"
+    data-testid="app-footer"
+  >
+    <div
+      class="container grid grid-cols-1 lg:grid-cols-3"
+    >
+      <nav
+        role="nav"
+      >
+        <div
+          class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block pt-6 lg:pt-0"
+          data-testid="nav-content"
+          id="nav-content"
+        >
+          <ul
+            class="list-reset lg:flex justify-end flex-1 flex-col"
+          >
+            <li
+              class="mr-3"
+            >
+              <a
+                class="inline-block py-2 px-4 text-white no-underline"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="mr-3"
+            >
+              <a
+                class="inline-block py-2 px-4 text-white no-underline"
+                href="https://github.com/LukeWale"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </li>
+            <li
+              class="mr-3"
+            >
+              <a
+                class="inline-block py-2 px-4 text-white no-underline"
+                href="#"
+              >
+                Contact (Coming Soon)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="text-center py-3"
+    >
+      <p>
+        Copyright Luke Wale
+      </p>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

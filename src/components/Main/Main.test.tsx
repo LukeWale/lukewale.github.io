@@ -37,11 +37,19 @@ describe('Main', () => {
     });
 
     it('renders the repos component', () => {
-        render(<Repos />);
+        render(<Main />);
 
         const element = screen.getByTestId('repos');
 
         expect(element).toBeInTheDocument();
+    });
+
+    it('has a logo animation gif', () => {
+        render(<Main />);
+
+        const logoImage = screen.getByTestId('introImage');
+
+        expect(logoImage).toBeInTheDocument();
     });
 
 

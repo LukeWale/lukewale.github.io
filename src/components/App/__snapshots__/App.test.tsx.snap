@@ -1,4 +1,257 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`App > should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="app-container min-h-screen"
+    data-testid="app-container"
+  >
+    <header
+      data-testid="app-header"
+    >
+      <nav
+        class=" bg-gray-800 fixed w-full z-10 top-0"
+        role="nav"
+      >
+        <div
+          class="flex items-center justify-between flex-wrap container p-6"
+        >
+          <div
+            class="flex items-center flex-shrink-0 text-white mr-6"
+          >
+            <div
+              class="block p-1"
+              data-testid="header-logo"
+            >
+              <img
+                alt=""
+                class="w-10"
+                data-testid="logoImg"
+                src="/src/assets/images/logo.png"
+              />
+            </div>
+            <a
+              class="text-white no-underline hover:text-white hover:no-underline"
+              href="#"
+            >
+              <span
+                class="text-2xl pl-2"
+              >
+                Luke Wale
+              </span>
+            </a>
+          </div>
+          <div
+            class="block lg:hidden"
+          >
+            <button
+              class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white  hover:border-white"
+              data-testid="toggleMenuButton"
+              id="nav-toggle"
+            >
+              <svg
+                class="fill-current h-3 w-3"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>
+                  Menu
+                </title>
+                <path
+                  d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0"
+            data-testid="nav-content"
+            id="nav-content"
+          >
+            <ul
+              class="list-reset lg:flex justify-end flex-1 items-center"
+            >
+              <li
+                class="mr-3"
+              >
+                <a
+                  class="inline-block py-2 px-4 text-white no-underline"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li
+                class="mr-3"
+              >
+                <a
+                  class="inline-block py-2 px-4 text-white no-underline"
+                  href="https://github.com/LukeWale"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li
+                class="mr-3"
+              >
+                <a
+                  class="inline-block py-2 px-4 text-white no-underline"
+                  href="#"
+                >
+                  Contact (Coming Soon)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main
+      class="pt-24"
+      data-testid="app-main"
+    >
+      <div
+        class="container p-6"
+      >
+        <div
+          class="text-center"
+        >
+          <img
+            alt=""
+            class="mx-auto"
+            data-testid="introImage"
+            src="/src/assets/images/logo-animation.gif"
+          />
+        </div>
+        <div
+          class="text-center py-5"
+        >
+          <h1>
+            About me
+          </h1>
+          <p>
+            I'm interested in making things happen... I've done all the static sites, I've done the modifications to others systems, I've done the custom wordpress plugins... now I'm excited for building my own things. After working for multiple employers for long periods of time I'd love to be able to have my own portfolio of things I've enjoyed doing... If you can't see things here it is likely I have them set to private repos, don't worry!
+          </p>
+          <p>
+            I'm currently focusing on JS, React, APIs, etc.
+          </p>
+          <p>
+            Over time I will be making little snippets public, so check below for updates!
+          </p>
+        </div>
+        <div
+          data-testid="repos"
+        >
+          <h2
+            class="text-center text-4xl"
+          >
+            Public Repos
+          </h2>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+            data-testid="repo-list"
+          >
+            <div
+              class="text-center"
+            >
+              <img
+                alt=""
+                data-testid="repo-image"
+                src="/src/assets/images/placeholder-image.png"
+              />
+              <h3
+                data-testid="repo-name"
+              >
+                JS QR Code Generator
+              </h3>
+              <a
+                class="bg-primary p-5 mb-[10px] block rounded-[10px] text-white font-semibold"
+                data-testid="repo-github-link"
+                href="https://github.com/LukeWale/js-qr-code-generator"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Repo
+              </a>
+              <a
+                class="bg-primary p-5 mb-[10px] block rounded-[10px] text-white font-semibold"
+                data-testid="repo-view-link"
+                href="https://lukewale.github.io/js-qr-code-generator"
+                rel="noreferrer"
+                target="_blank"
+              >
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="bg-gray-800 p-6 sticky top-[100vh] text-white"
+      data-testid="app-footer"
+    >
+      <div
+        class="container grid grid-cols-1 lg:grid-cols-3"
+      >
+        <nav
+          role="nav"
+        >
+          <div
+            class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block pt-6 lg:pt-0"
+            data-testid="nav-content"
+            id="nav-content"
+          >
+            <ul
+              class="list-reset lg:flex justify-end flex-1 flex-col"
+            >
+              <li
+                class="mr-3"
+              >
+                <a
+                  class="inline-block py-2 px-4 text-white no-underline"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li
+                class="mr-3"
+              >
+                <a
+                  class="inline-block py-2 px-4 text-white no-underline"
+                  href="https://github.com/LukeWale"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li
+                class="mr-3"
+              >
+                <a
+                  class="inline-block py-2 px-4 text-white no-underline"
+                  href="#"
+                >
+                  Contact (Coming Soon)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="text-center py-3"
+      >
+        <p>
+          Copyright Luke Wale
+        </p>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
 
 exports[`App should render correctly 1`] = `
 <DocumentFragment>

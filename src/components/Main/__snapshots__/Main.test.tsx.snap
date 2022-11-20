@@ -1,4 +1,90 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`Main > should render correctly 1`] = `
+<DocumentFragment>
+  <main
+    class="pt-24"
+    data-testid="app-main"
+  >
+    <div
+      class="container p-6"
+    >
+      <div
+        class="text-center"
+      >
+        <img
+          alt=""
+          class="mx-auto"
+          data-testid="introImage"
+          src="/src/assets/images/logo-animation.gif"
+        />
+      </div>
+      <div
+        class="text-center py-5"
+      >
+        <h1>
+          About me
+        </h1>
+        <p>
+          I'm interested in making things happen... I've done all the static sites, I've done the modifications to others systems, I've done the custom wordpress plugins... now I'm excited for building my own things. After working for multiple employers for long periods of time I'd love to be able to have my own portfolio of things I've enjoyed doing... If you can't see things here it is likely I have them set to private repos, don't worry!
+        </p>
+        <p>
+          I'm currently focusing on JS, React, APIs, etc.
+        </p>
+        <p>
+          Over time I will be making little snippets public, so check below for updates!
+        </p>
+      </div>
+      <div
+        data-testid="repos"
+      >
+        <h2
+          class="text-center text-4xl"
+        >
+          Public Repos
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          data-testid="repo-list"
+        >
+          <div
+            class="text-center"
+          >
+            <img
+              alt=""
+              data-testid="repo-image"
+              src="/src/assets/images/placeholder-image.png"
+            />
+            <h3
+              data-testid="repo-name"
+            >
+              JS QR Code Generator
+            </h3>
+            <a
+              class="bg-primary p-5 mb-[10px] block rounded-[10px] text-white font-semibold"
+              data-testid="repo-github-link"
+              href="https://github.com/LukeWale/js-qr-code-generator"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Repo
+            </a>
+            <a
+              class="bg-primary p-5 mb-[10px] block rounded-[10px] text-white font-semibold"
+              data-testid="repo-view-link"
+              href="https://lukewale.github.io/js-qr-code-generator"
+              rel="noreferrer"
+              target="_blank"
+            >
+              View
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;
 
 exports[`Main should render correctly 1`] = `
 <DocumentFragment>

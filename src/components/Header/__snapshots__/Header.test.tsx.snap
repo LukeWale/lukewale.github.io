@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Header should render correctly 1`] = `
+exports[`Header > should render correctly 1`] = `
 <DocumentFragment>
   <header
     data-testid="app-header"
@@ -23,7 +23,7 @@ exports[`Header should render correctly 1`] = `
               alt=""
               class="w-10"
               data-testid="logoImg"
-              src="logo.png"
+              src="/src/assets/images/logo.png"
             />
           </div>
           <a

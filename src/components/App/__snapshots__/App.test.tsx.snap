@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`App should render correctly 1`] = `
+exports[`App > should render correctly 1`] = `
 <DocumentFragment>
   <div
     class="app-container min-h-screen"
@@ -27,7 +27,7 @@ exports[`App should render correctly 1`] = `
                 alt=""
                 class="w-10"
                 data-testid="logoImg"
-                src="logo.png"
+                src="/src/assets/images/logo.png"
               />
             </div>
             <a
@@ -121,7 +121,7 @@ exports[`App should render correctly 1`] = `
             alt=""
             class="mx-auto"
             data-testid="introImage"
-            src="logo-animation.gif"
+            src="/src/assets/images/logo-animation.gif"
           />
         </div>
         <div
@@ -158,7 +158,7 @@ exports[`App should render correctly 1`] = `
               <img
                 alt=""
                 data-testid="repo-image"
-                src="placeholder-image.png"
+                src="/src/assets/images/placeholder-image.png"
               />
               <h3
                 data-testid="repo-name"

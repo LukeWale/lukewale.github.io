@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Footer should render correctly 1`] = `
+exports[`Footer > should render correctly 1`] = `
 <DocumentFragment>
   <footer
     class="bg-gray-800 p-6 sticky top-[100vh] text-white"

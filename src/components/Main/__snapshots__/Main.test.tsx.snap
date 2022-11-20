@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Main should render correctly 1`] = `
+exports[`Main > should render correctly 1`] = `
 <DocumentFragment>
   <main
     class="pt-24"
@@ -16,7 +16,7 @@ exports[`Main should render correctly 1`] = `
           alt=""
           class="mx-auto"
           data-testid="introImage"
-          src="logo-animation.gif"
+          src="/src/assets/images/logo-animation.gif"
         />
       </div>
       <div
@@ -53,7 +53,7 @@ exports[`Main should render correctly 1`] = `
             <img
               alt=""
               data-testid="repo-image"
-              src="placeholder-image.png"
+              src="/src/assets/images/placeholder-image.png"
             />
             <h3
               data-testid="repo-name"
